@@ -34,6 +34,7 @@ function App() {
     <div>
       <h1>Dictionary App</h1>
       <input
+      type="text"
         value={text}
         onChange={handleChange}
         placeholder="Search for a word..."
