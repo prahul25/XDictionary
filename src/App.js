@@ -24,7 +24,7 @@ function App() {
     );
     console.log(foundWord);
     if (!foundWord) {
-      setMeaning("Word not found in the dictionary");
+      setMeaning("Word not found in the dictionary.");
     } else {
       setMeaning(foundWord.meaning);
     }
