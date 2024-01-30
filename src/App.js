@@ -19,7 +19,6 @@ function App() {
   };
 
   const handleClick = () => {
-
     const foundWord = customDictionary.find(
       (word) => word.word.toLowerCase() === text.toLowerCase()
     );
@@ -34,7 +33,7 @@ function App() {
     <div>
       <h1>Dictionary App</h1>
       <input
-      type="text"
+        type="text"
         value={text}
         onChange={handleChange}
         placeholder="Search for a word..."
